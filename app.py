@@ -1,7 +1,10 @@
 from fastapi import FastAPI
+from config import configure_logging
 from services.etl import run_etl
 
 app = FastAPI()
+
+configure_logging()
 
 @app.post("/run-etl")
 async def run_etl_route():

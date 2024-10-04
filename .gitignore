@@ -1,2 +1,65 @@
-/__pycache__
-/venv
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+
+# Pytest cache
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.yml
+Dockerfile
+*.container
+
+# Environment variables
+.env
+.env.local
+
+# Uvicorn
+uvicorn.log
