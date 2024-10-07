@@ -8,7 +8,9 @@ configure_logging()
 
 @app.post("/run-etl")
 async def run_etl_route():
+    # Call the ETL process asynchronously
     await run_etl()
+
     return {"message": "ETL process completed successfully"}
 
 if __name__ == "__main__":
